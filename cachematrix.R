@@ -1,20 +1,11 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## Write a short comment describing the below function
 
-makeCacheMatrix <- function(x = matrix()) {
-
-}
-
-
-## Write a short comment describing this function
-
-cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
-}
-## How to create the make cache Matrix
+## Creating the makeCacheMatrix
 ## Caching the inverse of a Matrix
+## Remember a matrix inversion is computationally costly so caching is the answer
 ## Always remember return a matrix that is the inverse of 'x'
 ## Use the "makeVector" as an example
 
@@ -35,9 +26,12 @@ makeCacheMatrix <- function(x = matrix()) {
 	
 }
 
+## Write a short comment describing the below function
+
 ## The above function will computes the inverse of the special "matrix" 
 ## via makeCacheMatrix above. If the inverse and matrix stay the same by right
-## it should skip the computation and retrive the inverse from the cache.
+## it should skip the computation and retrive the inverse from the cache provided
+## the matrix must be unchanged.
 
 cachemean <- function (x, ...) {
 	## Return a matrix that is the inverse of 'x'
